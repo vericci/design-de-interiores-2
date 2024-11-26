@@ -499,12 +499,12 @@ footer {
 @media (max-width:830px) {
 
     body {
-        padding: 0 0 0;
-        margin:0 0 0 ;
+        padding: 0;
+        margin: 0;
         top: 0;
         left: 0;
         align-items: center;
-        
+
 
 
 
@@ -529,6 +529,8 @@ footer {
     header {
         padding: min(5vh, 2rem);
         justify-content: space-between;
+        top: 0;
+        position: sticky;
 
     }
 
@@ -568,9 +570,10 @@ footer {
         height: 1.5rem;
         background-color: beige;
         /* border-radius: 1rem;*/
-        padding: 1rem;
+        padding: 1rem; */
         color: black;
         margin: 2rem;
+        align-items: center;
     }
 
     .section-2 {
@@ -665,20 +668,21 @@ footer {
     }
 
 
-    .box-1,
-    .box-2,
-    .box-3,
-    .box-4,
-    .box-5,
-    .box-6 {
-        width: 0rem;
-        height: 0rem;
+    .box-1 img,
+    .box-2 img,
+    .box-3 img,
+    .box-4 img,
+    .box-5 img,
+    .box-6 img{
+        width:100px;
+        height:auto;
         /*FALTA AJUSTAR O CAROUSEL PARA FICAR RESPONSIVEL*/
 
 
 
     }
 }
+ 
 
 
 
@@ -769,3 +773,4 @@ footer {
 
     }
 }
+
