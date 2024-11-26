@@ -496,19 +496,18 @@ footer {
 
 
 
-@media (max-width:830px) {
+@media (max-width:820px) {
 
     body {
-        padding: 0;
-        margin: 0;
-        top: 0;
-        left: 0;
+        padding:0;
+        margin:0;
         align-items: center;
-
-
-
-
+       
+        
+        
     }
+        
+
 
     body .div-body h1 {
         font-size: 1.5rem;
@@ -639,7 +638,7 @@ footer {
     }
 
     .section-4 {
-        padding: 5rem;
+        padding: 6rem;
         justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
@@ -661,6 +660,7 @@ footer {
 
     .container-sec-4 {
         align-items: center;
+        text-align: center;
         position: relative;
         gap: 2rem;
         flex-direction: column;
@@ -668,19 +668,20 @@ footer {
     }
 
 
-    .box-1 img,
-    .box-2 img,
-    .box-3 img,
-    .box-4 img,
-    .box-5 img,
-    .box-6 img{
-        width:100px;
-        height:auto;
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6{
+        width:0rem;
+        height:0rem;
+        display: none;
         /*FALTA AJUSTAR O CAROUSEL PARA FICAR RESPONSIVEL*/
 
 
 
-    }
+   
 }
  
 
