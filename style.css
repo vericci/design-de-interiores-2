@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*lembrar de adicionar uma font do google fonts*/
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+html {
+    width: 100%;
+
+
+}
+
+
+.whatsapp {
+    position: relative;
+
+}
+
+.whatsapp img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 5rem;
+    height: auto;
+
+}
+
+body {
+    background-image: url(img/bedroom-8052036.png);
+    margin: 10rem 4rem 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+
+
+
+body .div-body {
+    margin-bottom: 6rem;
+}
+
+
+body .div-body h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: end;
+}
+
+body .div-body p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: end;
+}
+
+
+
+header {
+    background-color: black;
+    justify-content: space-around;
+    padding: min(5vh, 2rem);
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 0.21rem 0.5rem white;
+    position: sticky;
+    top: 0;
+
+}
+
+.mobile-menu {
+    /*Estilização da caixa Mobile quando aberta*/
+    display: none;
+    /*Display: Nenhum*/
+    position: fixed;
+    /*Posição fixa na parte direita da página*/
+    top: 0;
+    /*Superior em 0 fazendo a caixa encostar ao topo*/
+    right: 0;
+    /*Direita em 0 fazendo a caixa encostar a direita*/
+    width: 50%;
+    /*Largura em porcentagem da caixa*/
+    height: 100%;
+    /*Altura de 100% da tela*/
+    background-color: rgb(0, 0, 0);
+    /*Cor de fundo*/
+    flex-direction: column;
+    /*direção dos itens dentro da caixa */
+    align-items: center;
+    /*Alinhamento na vertical do itens*/
+    font-size: 1.8rem;
+    /*tamanho da letra dentro da caixa*/
+}
+
+.nav-links-mobile {
+    /*Lista não ordenada da versão mobile*/
+    display: flex;
+    /*Tornando os itens (LISTAS) flexíveis*/
+    flex-direction: column;
+    /*Estamos direcionando o posicionamento dessas listas*/
+    text-align: end;
+    /*Alinhando o texto ao centro*/
+    gap: 1.2rem;
+    /*Espaço entre as listas */
+    /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+    list-style: none;
+    /*Estilo de lista desabilitado*/
+    /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+}
+
+.nav-links-mobile li {
+    /*listas da versão Mobile*/
+    border-bottom: 1px solid black;
+    /*Bordar inferior de cada lista*/
+    padding-bottom: 1.2rem;
+    /*Tamanho da borda*/
+}
+
+
+
+
+.hamburger,
+.close {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+.close {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: block;
+    align-self: end;
+}
+
+
+.flex {
+    display: flex;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+header h2 {
+    color: white;
+    font-size: 1rem;
+}
+
+header ul {
+    display: flex;
+
+}
+
+
+
+header ul li {
+    list-style: none;
+    margin: 0.5rem;
+
+}
+
+
+header ul li a {
+    color: white;
+}
+
+
+
+.section-1 {
+    padding: 20rem;
+    background-image: url(img/living-room-8949165_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+
+}
+
+
+.div-section-1 h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.div-section-1 p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.div-section-1 button {
+    width: 13rem;
+    height: 1.5rem;
+    background-color: beige;
+    /* border-radius: 1rem;*/
+    padding: 1.3rem;
+    color: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.21rem 0.5rem black;
+}
+
+
+
+.section-2 {
+    padding: 20rem;
+    background-image: url(img/cozinha.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.div-section-2 h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.div-section-2 p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.div-section-2 button {
+    width: 13rem;
+    height: 1.5rem;
+    background-color: beige;
+    /* border-radius: 1rem;*/
+    padding: 1.3rem;
+    color: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.21rem 0.5rem black;
+}
+
+.section-3 {
+    padding: 6rem;
+    background-color: black;
+    align-items: center;
+
+}
+
+.section-3 h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.container-sec3 {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.card {
+    width: 280px;
+    height: 350px;
+    margin: 30px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px white solid;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+
+.card h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section-4 {
+    padding: 10rem;
+    background-attachment: fixed;
+    background-image: url(img/banheiro2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.container-sec4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+
+
+}
+
+.card4 {
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+.card4 h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: beige;
+
+}
+
+.card-4 h3 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: beige;
+}
+
+.container-sec4 button {
+    width: 13rem;
+    height: 1.5rem;
+    background-color: beige;
+    /* border-radius: 1rem;*/
+    padding: 1.3rem;
+    color: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.21rem 0.5rem black;
+}
+
+
+.container-sec-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+
+
+}
+
+
+
+.box-1 {
+    background-image: url(img/escritori-quarto.jpeg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+    border-color: white;
+
+}
+
+.box-2 {
+    background-image: url(img/escritorio.jpeg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+
+}
+
+.box-3 {
+    background-image: url(img/cozinha-01.jpeg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+
+}
+
+.box-4 {
+    background-image: url(img/banheiro.jpg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+
+}
+
+.box-5 {
+    background-image: url(img/Stylish\ Fusion_\ Latest\ Living\ Room\ Designs\ 2023\ in\ India.jpg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+
+}
+
+.box-6 {
+    background-image: url(img/Master\ Bedroom\ Ideas_\ 59\ Ways\ to\ Design\ Your\ Place.jpg);
+    width: 18rem;
+    height: 31rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 30px 20px 50px black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+@media (max-width:830px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+
+
+
+    }
+
+    body .div-body h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        display: none;
+
+    }
+
+    body .div-body p {
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: center;
+
+        display: none;
+    }
+
+    header {
+        padding: min(5vh, 2rem);
+        justify-content: space-between;
+
+    }
+
+    header h2 {
+        font-size: 1.1rem;
+    }
+
+    header a {
+        font-size: 0.5rem;
+
+    }
+
+    .nav-links-header {
+        display: none;
+
+    }
+
+    .section-1 {
+        padding: 5rem;
+        align-items: center;
+    }
+
+    .div-section-1 h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .div-section-1 {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .div-section-1 button {
+        width: 10rem;
+        height: 1.5rem;
+        background-color: beige;
+        /* border-radius: 1rem;*/
+        padding: 1rem;
+        color: black;
+        margin: 2rem;
+    }
+
+    .section-2 {
+        padding: 5rem;
+        align-items: center;
+    }
+
+    .div-section-2 h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .div-section-2 {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .div-section-2 button {
+        width: 10rem;
+        height: 1.5rem;
+        background-color: beige;
+        /* border-radius: 1rem;*/
+        padding: 1rem;
+        color: black;
+        margin: 2rem;
+    }
+
+    .section-3 {
+        padding: 6rem;
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .card {
+        width: 220px;
+        height: 300px;
+        margin: 30px;
+
+        color: aliceblue;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        border: 2px white solid;
+        align-items: center;
+    }
+
+
+    .card h3 {
+        font-size: 1.9rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .section-4 {
+        padding: 5rem;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .container-sec4 {
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+    }
+
+
+
+    .container-sec-4 {
+        align-items: center;
+        position: relative;
+        gap: 2rem;
+        flex-direction: column;
+
+    }
+
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        width: 0rem;
+        height: 0rem;
+        /*FALTA AJUSTAR O CAROUSEL PARA FICAR RESPONSIVEL*/
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* menu hambuguer*/
+@media(max-width: 834px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .nav-links-mobile a {
+        color: white;
+        font-size: 1.5rem;
+
+
+    }
+
+    .closeButton i {
+        color: white;
+
+    }
+
+    header img {
+        width: 7rem;
+        height: auto;
+    }
+
+
+    .hamburger {
+        display: block;
+
+    }
+
+    .mobile-menu {
+        z-index: 999;
+    }
+
+    #btn-header {
+        display: none;
+    }
+
+
+    .cad-mobile button {
+        width: 10rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+    }
+
+
+
+    .cad-mobile button a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .nav {
+        display: none;
+    }
+
+}
+
+
+
+
+/* footer */
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-section {
+        max-width: 300px;
+        text-align: center;
+
+
+    }
+}
